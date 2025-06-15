@@ -1,0 +1,22 @@
+def weight_depth_first_search(problem) - returns a solution or a failure
+	ndoe = node with a STATE = problem.Initial-State, path_cost=0
+	if problem.goal-test(node.state) 
+		return solution(node)
+	frontier=LIFO stack
+	explored=an empty set
+	while frontier //makes sure there are still elements
+		node=frontier.pop()
+		if problem.goal-test(node.state)
+			return solution(node)
+		
+		add to explored node.state
+		create a successor - a new empty list
+		for action (child) in problem.result(node.state)
+			child=problem.result(node.state,action)
+			path=problem.path-cost
+			child_node = new Node (like a regular node but has extra feature called path (the reason why I initialize it before this line))
+			if child_state not in frontier and explored
+				add to successor
+		sort all successors (we sort it using path_cost)
+		for each child in successor - copy them into frontier
+	return failure (None) and explored
