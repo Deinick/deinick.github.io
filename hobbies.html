@@ -3,7 +3,296 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikolay Deinego Portfolio - Hobbies</title>
-    <style>
+    <style> 
+        body {
+            position: relative;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: #C7D3CA;
+            
+        }
+
+        .container{
+            width: 1440px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #banner{
+            position: absolute;
+            width: 1326px;
+            height: 705px;
+            left: 56px;
+            top: 111px;
+
+
+        }
+
+        .white_frame{
+            position: absolute;
+            width: 1326px;
+            height: 6468px;
+            left: 56px;
+            top: 111px;
+
+            background: #F8F8F8;
+        }
+        #artistme{
+            position: absolute;
+            width: 372px;
+            height: 124px;
+            left: calc(50% - 372px/2 + 31px);
+            top: 853px;
+
+            font-family: 'Inknut Antiqua';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 124px;
+            color: #000000;
+        }
+        #Drawing{
+            position: absolute;
+            width: 185px;
+            height: 103px;
+            left: 626px;
+            top: 1045px;
+
+            font-family: 'Inknut Antiqua';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 103px;
+
+            color: #000000;
+        }
+
+        #collage_art{
+position: absolute;
+width: 657px;
+height: 877px;
+left: 94px;
+top: 1212px;
+
+background: url(photo_2025-06-09_17-28-28.jpg);
+border-radius: 49px;
+
+        }
+
+        #art_text{
+position: absolute;
+width: 6005px;
+height: 940px;
+left: 788px;
+top: 1208px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 62px;
+
+color: #000000;
+
+        }
+
+        #video{
+position: absolute;
+width: 912px;
+height: 309px;
+left: calc(50% - 912px/2);
+top: 2300px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 103px;
+
+color: #000000;
+
+
+        }
+
+        #video_text{
+position: absolute;
+width: 1325px;
+height: 1204px;
+left: calc(50% - 1325px/2 + 0.5px);
+top: 2544px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 67px;
+text-align: center;
+
+color: #000000;
+
+
+        }
+
+        #collage_photo{
+position: absolute;
+width: 1325.33px;
+height: 994px;
+left: 58px;
+top: 3684px;
+
+background: url(photo_2025-06-09_17-28-26.jpg);
+        }
+        #piano{
+position: absolute;
+width: 128px;
+height: 309px;
+left: calc(50% - 128px/2 - 1px);
+top: 4813px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 103px;
+
+color: #000000;
+        }
+
+        #piano_text{
+position: absolute;
+width: 1158px;
+height: 642px;
+left: calc(50% - 1158px/2 - 1px);
+top: 5000px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 67px;
+text-align: center;
+
+color: #000000;
+
+
+        }
+
+         #iconabout{
+position: absolute;
+width: 1032px;
+height: 34px;
+left: 275px;
+top: 6100px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 72px;
+
+color: #000000;
+
+
+        }
+        #iconhobby{
+position: absolute;
+width: 1032px;
+height: 34px;
+left: 1035px;
+top: 6100px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 72px;
+
+color: #000000;
+
+
+        }
+        #iconproject{
+            position: absolute;
+width: 1032px;
+height: 34px;
+left: 650px;
+top: 6100px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 72px;
+
+color: #000000;
+
+        }
+        #photo_about{
+position: absolute;
+width: 225px;
+height: 225px;
+left: 212px;
+top: 6200px;
+
+background: #465A54;
+border-radius: 43px;
+
+        }
+        #photo_projects{
+position: absolute;
+width: 238px;
+height: 227px;
+left: 591px;
+top: 6200px;
+
+background: #465A54;
+border-radius: 43px;
+
+        }
+        #photo_hobby{
+position: absolute;
+width: 238px;
+height: 227px;
+left: 975px;
+top: 6200px;
+
+background: #465A54;
+border-radius: 43px;
+
+        }
+
+                .brown_frame{
+position: absolute;
+width: 1682px;
+height: 517px;
+left: -122px;
+top: 6550px;
+
+background: #69635F;
+
+        }
+
+        #contact{
+position: absolute;
+width: 542px;
+height: 833px;
+left: calc(50% - 542px/2 - 339px);
+top: 6641px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 62px;
+
+color: #FFFFFF;
+
+
+        }
+
+    
     </style>
 </head>
 <body>
